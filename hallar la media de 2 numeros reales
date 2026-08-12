@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+float x,y,z;    
+    cout<<"ingresa el primer dato: ";
+    cin>>x;
+    cout<<"ingresar el segundo dato: ";
+    cin>>y;
+    z = (x+y) / 2.0;
+    cout<<"la media es: "<< z;
+
+
+    return 0;
+}
