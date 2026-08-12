@@ -1,0 +1,21 @@
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    float p,q,r,s,area;
+    
+    cout<<"ngresar el lado de p: ";
+    cin>>p; 
+    cout<<"ingresar el lado q: ";
+    cin>>q;
+    cout<<"ingresar el lado de r: ";
+    cin>>r;
+    s = (p+q+r)/2;
+    area= sqrt(s*(s-p)*(s-q)*(s-r));
+    cout<<"el area es:"<<area;
+
+    return 0;
+}
