@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+int main()
+{
+    float a,b,c;
+    double x1,x2;
+    cout<<"Ingresar a: ";
+    cin>>a;
+    cout<<"ingresar b: ";
+    cin>>b;
+    cout<<"ingresar c: ";
+    cin>>c;
+    x1=(-b+sqrt(b*b-4*a*c))/(2*a);
+    x2=(-b-sqrt(b*b-4*a*c))/(2*a);
+    cout<<"la solucion x1 es: "<<x1<<endl;
+    cout<<"la solucion x2 es: "<<x2<<endl;
+    return 0;
+}
