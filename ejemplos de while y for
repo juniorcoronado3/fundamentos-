@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int cont=0;
+    
+    // Ejemplo While 
+    do {
+        cont = cont +1; 
+        cout <<cont<<" , ";
+    } while (cont !=10);
+    cout<<endl;
+
+    // Ejemplo While 
+    cont=0;
+    while (cont<10) { 
+        cont = cont +1; 
+        cout <<cont<<" , ";
+    }
+    cout<<endl;
+    // Ejemplo for
+    for (cont=1;cont<=10;cont++)
+    cout<<cont<<" , ";
+    
+    return 0;
+}
