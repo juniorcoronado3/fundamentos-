@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std; 
+int main()
+{
+    int dd,mm,aa;
+    cout<<"Ingresar dia: ";
+    cin>>dd; 
+    cout<<"Ingresar mes: "; 
+    cin>>mm; 
+    cout<<"ingresar año: "; 
+    cin>>aa;
+    if(mm=3)
+        if(dd>=21)
+            cout<<"Es otoño"; 
+        else 
+            cout<<"Es verano";
+    else if ((mm==4)||(mm==5))
+            cout<<"Es otroño";
+        else if (mm==6)
+                if(dd>=20)
+                cout<<"Es otroño";
+            else 
+                cout<<"Es invierno"; 
+        else 
+            if ((mm==7)||(mm==8))
+                cout<<"Es invierno"; 
+        else 
+            if (mm==9)
+                if (dd>=23)
+                    cout<< "Es primavera";
+                else 
+                    if (mm==12)
+                        if (dd>=21)
+                            cout<<"Es verano";
+                        else 
+                            cout<<"Es primavera";
+                    else
+                        if((mm=1)||(mm=2))
+                           cout<<"Es verano";
+    return 0;
+}
